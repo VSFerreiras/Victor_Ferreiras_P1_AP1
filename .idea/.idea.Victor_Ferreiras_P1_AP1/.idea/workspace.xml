@@ -4,18 +4,55 @@
     <projectFile profileName="http">Victor_Ferreiras_P1_AP1/Victor_Ferreiras_P1_AP1.csproj</projectFile>
     <projectFile profileName="https">Victor_Ferreiras_P1_AP1/Victor_Ferreiras_P1_AP1.csproj</projectFile>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5253b3d3-94ca-4679-850b-4ac6d77361d7" name="Changes" comment="" />
+    <list default="true" id="5253b3d3-94ca-4679-850b-4ac6d77361d7" name="Changes" comment="Removido páginas predeterminadas de NavMenu.razor">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Victor_Ferreiras_P1_AP1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Victor_Ferreiras_P1_AP1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/Victor_Ferreiras_P1_AP1.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/Victor_Ferreiras_P1_AP1.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/Debug/net9.0/Victor_Ferreiras_P1_AP1.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/Debug/net9.0/Victor_Ferreiras_P1_AP1.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/Debug/net9.0/Victor_Ferreiras_P1_AP1.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/Debug/net9.0/Victor_Ferreiras_P1_AP1.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/Debug/net9.0/Victor_Ferreiras_P1_AP1.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/Debug/net9.0/Victor_Ferreiras_P1_AP1.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/Debug/net9.0/Victor_Ferreiras_P1_AP1.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/Debug/net9.0/Victor_Ferreiras_P1_AP1.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/Victor_Ferreiras_P1_AP1.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/Victor_Ferreiras_P1_AP1.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/Victor_Ferreiras_P1_AP1.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/Victor_Ferreiras_P1_AP1.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/Victor_Ferreiras_P1_AP1.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/Victor_Ferreiras_P1_AP1.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "VSFerreiras"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/VSFerreiras/Victor_Ferreiras_P1_AP1.git",
+    "accountId": "d045c6c3-963c-4244-9334-8955b170696f"
+  }
+}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///home/victor/Documents/UCNE/2025-01/Programación Aplicada I/Victor_Ferreiras_P1_AP1/Victor_Ferreiras_P1_AP1/Components/Layout/NavMenu.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo"><![CDATA[{
   "customColor": "",
   "associatedIndex": 4
 }]]></component>
   <component name="ProjectId" id="2sY93damDJDioWs5NLUZ7TCPvIC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -23,7 +60,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "/home/victor/Documents/UCNE/2025-01/Programación Aplicada I",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
@@ -69,15 +111,47 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1738621443238</updated>
-      <workItem from="1738621444754" duration="158000" />
+      <workItem from="1738621444754" duration="2096000" />
     </task>
+    <task id="LOCAL-00001" summary="Removido paginas predeterminadas (counter.razor/weather.razor)">
+      <option name="closed" value="true" />
+      <created>1738622169393</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738622169393</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Removido páginas predeterminadas de NavMenu.razor">
+      <option name="closed" value="true" />
+      <created>1738622184423</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1738622184423</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Removido paginas predeterminadas (counter.razor/weather.razor)" />
+    <MESSAGE value="Removido páginas predeterminadas de NavMenu.razor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removido páginas predeterminadas de NavMenu.razor" />
   </component>
 </project>
