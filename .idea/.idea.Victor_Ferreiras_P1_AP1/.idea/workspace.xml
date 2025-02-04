@@ -8,20 +8,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5253b3d3-94ca-4679-850b-4ac6d77361d7" name="Changes" comment="Removido páginas predeterminadas de NavMenu.razor">
+    <list default="true" id="5253b3d3-94ca-4679-850b-4ac6d77361d7" name="Changes" comment="Creado contexto">
+      <change afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/Components/Pages/Create.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/Components/Pages/Delete.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/Components/Pages/Edit.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/Components/Pages/Index.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/Services/ModeloService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Victor_Ferreiras_P1_AP1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Victor_Ferreiras_P1_AP1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/Components/Pages/Home.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/Victor_Ferreiras_P1_AP1.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/Victor_Ferreiras_P1_AP1.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/Debug/net9.0/Victor_Ferreiras_P1_AP1.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/Debug/net9.0/Victor_Ferreiras_P1_AP1.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/Debug/net9.0/Victor_Ferreiras_P1_AP1.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/Debug/net9.0/Victor_Ferreiras_P1_AP1.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/Debug/net9.0/Victor_Ferreiras_P1_AP1.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/Debug/net9.0/Victor_Ferreiras_P1_AP1.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/Debug/net9.0/Victor_Ferreiras_P1_AP1.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/Debug/net9.0/Victor_Ferreiras_P1_AP1.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/Victor_Ferreiras_P1_AP1.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/Victor_Ferreiras_P1_AP1.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/Victor_Ferreiras_P1_AP1.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/Victor_Ferreiras_P1_AP1.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/Victor_Ferreiras_P1_AP1.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/Victor_Ferreiras_P1_AP1.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +108,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1738621443238</updated>
-      <workItem from="1738621444754" duration="2096000" />
+      <workItem from="1738621444754" duration="6664000" />
     </task>
     <task id="LOCAL-00001" summary="Removido paginas predeterminadas (counter.razor/weather.razor)">
       <option name="closed" value="true" />
@@ -129,7 +126,31 @@
       <option name="project" value="LOCAL" />
       <updated>1738622184423</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Paquetes nuget instalados">
+      <option name="closed" value="true" />
+      <created>1738623605638</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1738623605638</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Modelo creado">
+      <option name="closed" value="true" />
+      <created>1738629982365</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1738629982365</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Creado contexto">
+      <option name="closed" value="true" />
+      <created>1738630003175</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1738630003175</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +173,9 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Removido paginas predeterminadas (counter.razor/weather.razor)" />
     <MESSAGE value="Removido páginas predeterminadas de NavMenu.razor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removido páginas predeterminadas de NavMenu.razor" />
+    <MESSAGE value="Paquetes nuget instalados" />
+    <MESSAGE value="Modelo creado" />
+    <MESSAGE value="Creado contexto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creado contexto" />
   </component>
 </project>
