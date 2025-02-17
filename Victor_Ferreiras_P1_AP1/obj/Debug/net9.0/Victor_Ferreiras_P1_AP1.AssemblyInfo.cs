@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Victor_Ferreiras_P1_AP1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf60264f49d851f85c8d665150c53d5a5a3a16e8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c34cdf9e66e52547bf0bca11001a3b10e5592312")]
 [assembly: System.Reflection.AssemblyProductAttribute("Victor_Ferreiras_P1_AP1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Victor_Ferreiras_P1_AP1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

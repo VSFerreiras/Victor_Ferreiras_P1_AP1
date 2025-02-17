@@ -8,3 +8,4 @@ public class Modelo
     [Required(ErrorMessage = "El campo es requerido")]
     public string Nombre { get; set; }
 }
+

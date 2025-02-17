@@ -8,46 +8,47 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5253b3d3-94ca-4679-850b-4ac6d77361d7" name="Changes" comment="Creado contexto">
-      <change afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/Components/Pages/Create.razor" afterDir="false" />
+    <list default="true" id="5253b3d3-94ca-4679-850b-4ac6d77361d7" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/Components/Pages/Delete.razor" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/Components/Pages/Edit.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/Components/Pages/Index.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/Services/ModeloService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Victor_Ferreiras_P1_AP1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Victor_Ferreiras_P1_AP1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/Components/Pages/Home.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/Victor_Ferreiras_P1_AP1.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/Victor_Ferreiras_P1_AP1.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/Components/Pages/Index.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/Components/Pages/Index.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/Models/Modelo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/Models/Modelo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/Debug/net9.0/Victor_Ferreiras_P1_AP1.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/Debug/net9.0/Victor_Ferreiras_P1_AP1.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/Debug/net9.0/Victor_Ferreiras_P1_AP1.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/Debug/net9.0/Victor_Ferreiras_P1_AP1.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/Debug/net9.0/Victor_Ferreiras_P1_AP1.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/Debug/net9.0/Victor_Ferreiras_P1_AP1.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "VSFerreiras"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;VSFerreiras&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/VSFerreiras/Victor_Ferreiras_P1_AP1.git",
-    "accountId": "d045c6c3-963c-4244-9334-8955b170696f"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/VSFerreiras/Victor_Ferreiras_P1_AP1.git&quot;,
+    &quot;accountId&quot;: &quot;d045c6c3-963c-4244-9334-8955b170696f&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///home/victor/Documents/UCNE/2025-01/Programación Aplicada I/Victor_Ferreiras_P1_AP1/Victor_Ferreiras_P1_AP1/Components/Layout/NavMenu.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/Components/Pages/Edit.razor" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2sY93damDJDioWs5NLUZ7TCPvIC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -56,7 +57,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    ".NET Launch Settings Profile.Victor_Ferreiras_P1_AP1: http.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "/home/victor/Documents/UCNE/2025-01/Programación Aplicada I",
     "node.js.detected.package.eslint": "true",
@@ -64,7 +67,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.selected.configurable": "RiderCSharpLiveTemplatesSettingsId",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -108,7 +111,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1738621443238</updated>
-      <workItem from="1738621444754" duration="6664000" />
+      <workItem from="1738621444754" duration="7520000" />
+      <workItem from="1739025795688" duration="22000" />
+      <workItem from="1739232595242" duration="1052000" />
+      <workItem from="1739821260778" duration="273000" />
+      <workItem from="1739821543485" duration="1179000" />
+      <workItem from="1739825995603" duration="2311000" />
     </task>
     <task id="LOCAL-00001" summary="Removido paginas predeterminadas (counter.razor/weather.razor)">
       <option name="closed" value="true" />
@@ -150,7 +158,55 @@
       <option name="project" value="LOCAL" />
       <updated>1738630003175</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Creado Service">
+      <option name="closed" value="true" />
+      <created>1738630256065</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1738630256065</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Creado Index">
+      <option name="closed" value="true" />
+      <created>1738630288487</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1738630288487</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Creado Create">
+      <option name="closed" value="true" />
+      <created>1738630299638</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1738630299638</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Añadido connection string">
+      <option name="closed" value="true" />
+      <created>1738630318893</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1738630318893</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Inyectado context factory">
+      <option name="closed" value="true" />
+      <created>1738630334893</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1738630334893</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Misc">
+      <option name="closed" value="true" />
+      <created>1738630374768</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1738630374768</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +232,12 @@
     <MESSAGE value="Paquetes nuget instalados" />
     <MESSAGE value="Modelo creado" />
     <MESSAGE value="Creado contexto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creado contexto" />
+    <MESSAGE value="Creado Service" />
+    <MESSAGE value="Creado Index" />
+    <MESSAGE value="Creado Create" />
+    <MESSAGE value="Añadido connection string" />
+    <MESSAGE value="Inyectado context factory" />
+    <MESSAGE value="Misc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Misc" />
   </component>
 </project>

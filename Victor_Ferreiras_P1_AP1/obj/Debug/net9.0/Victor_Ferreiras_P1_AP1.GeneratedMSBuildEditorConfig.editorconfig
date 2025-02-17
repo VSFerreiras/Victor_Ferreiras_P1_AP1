@@ -32,12 +32,24 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9BcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/victor/Documents/UCNE/2025-01/Programación Aplicada I/Victor_Ferreiras_P1_AP1/Victor_Ferreiras_P1_AP1/Components/Pages/Create.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9DcmVhdGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/victor/Documents/UCNE/2025-01/Programación Aplicada I/Victor_Ferreiras_P1_AP1/Victor_Ferreiras_P1_AP1/Components/Pages/Delete.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9EZWxldGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/victor/Documents/UCNE/2025-01/Programación Aplicada I/Victor_Ferreiras_P1_AP1/Victor_Ferreiras_P1_AP1/Components/Pages/Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9FZGl0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/victor/Documents/UCNE/2025-01/Programación Aplicada I/Victor_Ferreiras_P1_AP1/Victor_Ferreiras_P1_AP1/Components/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9FcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/victor/Documents/UCNE/2025-01/Programación Aplicada I/Victor_Ferreiras_P1_AP1/Victor_Ferreiras_P1_AP1/Components/Pages/Home.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Ib21lLnJhem9y
+[/home/victor/Documents/UCNE/2025-01/Programación Aplicada I/Victor_Ferreiras_P1_AP1/Victor_Ferreiras_P1_AP1/Components/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9JbmRleC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/victor/Documents/UCNE/2025-01/Programación Aplicada I/Victor_Ferreiras_P1_AP1/Victor_Ferreiras_P1_AP1/Components/Routes.razor]
