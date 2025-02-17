@@ -1,6 +1,7 @@
 using Victor_Ferreiras_P1_AP1.Components;
 using Victor_Ferreiras_P1_AP1.DAL;
 using Microsoft.EntityFrameworkCore;
+using Victor_Ferreiras_P1_AP1.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +13,7 @@ var ConStr = builder.Configuration.GetConnectionString("SqlConStr");
 builder.Services.AddDbContextFactory<Contexto>(o => o.UseSqlServer(ConStr));
 
 var app = builder.Build();
+builder.Services.AddScoped<AporteService>();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
