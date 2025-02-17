@@ -8,8 +8,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5253b3d3-94ca-4679-850b-4ac6d77361d7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/Components/_Imports.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/Components/_Imports.razor" afterDir="false" />
+    <list default="true" id="5253b3d3-94ca-4679-850b-4ac6d77361d7" name="Changes" comment="Service inyectado">
+      <change afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/Services/AporteService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Victor_Ferreiras_P1_AP1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Victor_Ferreiras_P1_AP1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/Components/Pages/Delete.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/Components/Pages/Delete.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/Components/Pages/Edit.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/Components/Pages/Edit.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/Services/ModeloService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/Victor_Ferreiras_P1_AP1.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/Victor_Ferreiras_P1_AP1.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/bin/Debug/net9.0/Victor_Ferreiras_P1_AP1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/bin/Debug/net9.0/Victor_Ferreiras_P1_AP1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/bin/Debug/net9.0/Victor_Ferreiras_P1_AP1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/bin/Debug/net9.0/Victor_Ferreiras_P1_AP1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/bin/Debug/net9.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/bin/Debug/net9.0/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/Debug/net9.0/Victor_Ferreiras_P1_AP1.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/Debug/net9.0/Victor_Ferreiras_P1_AP1.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/Debug/net9.0/Victor_Ferreiras_P1_AP1.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/Debug/net9.0/Victor_Ferreiras_P1_AP1.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/Debug/net9.0/Victor_Ferreiras_P1_AP1.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/Debug/net9.0/Victor_Ferreiras_P1_AP1.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/Debug/net9.0/Victor_Ferreiras_P1_AP1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/Debug/net9.0/Victor_Ferreiras_P1_AP1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/Debug/net9.0/Victor_Ferreiras_P1_AP1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/Debug/net9.0/Victor_Ferreiras_P1_AP1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/Debug/net9.0/Victor_Ferreiras_P1_AP1.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/Debug/net9.0/Victor_Ferreiras_P1_AP1.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/Debug/net9.0/ref/Victor_Ferreiras_P1_AP1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/Debug/net9.0/ref/Victor_Ferreiras_P1_AP1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/Debug/net9.0/refint/Victor_Ferreiras_P1_AP1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/obj/Debug/net9.0/refint/Victor_Ferreiras_P1_AP1.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +51,12 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///home/victor/Documents/UCNE/2025-01/Programación Aplicada I/Victor_Ferreiras_P1_AP1/Victor_Ferreiras_P1_AP1/Components/Pages/Delete.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Victor_Ferreiras_P1_AP1/Components/Pages/Edit.razor" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///home/victor/Documents/UCNE/2025-01/Programación Aplicada I/Victor_Ferreiras_P1_AP1/Victor_Ferreiras_P1_AP1/Components/Pages/Index.razor" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///home/victor/Documents/UCNE/2025-01/Programación Aplicada I/Victor_Ferreiras_P1_AP1/Victor_Ferreiras_P1_AP1/Models/Modelo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/victor/Documents/UCNE/2025-01/Programación Aplicada I/Victor_Ferreiras_P1_AP1/Victor_Ferreiras_P1_AP1/DAL/Contexto.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/victor/Documents/UCNE/2025-01/Programación Aplicada I/Victor_Ferreiras_P1_AP1/Victor_Ferreiras_P1_AP1/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/victor/Documents/UCNE/2025-01/Programación Aplicada I/Victor_Ferreiras_P1_AP1/Victor_Ferreiras_P1_AP1/bin/Debug/net9.0/appsettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///home/victor/Documents/UCNE/2025-01/Programación Aplicada I/Victor_Ferreiras_P1_AP1/Victor_Ferreiras_P1_AP1/obj/Debug/net9.0/Victor_Ferreiras_P1_AP1.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -113,6 +132,7 @@
       <workItem from="1739821543485" duration="1179000" />
       <workItem from="1739825995603" duration="2311000" />
       <workItem from="1739828954924" duration="2469000" />
+      <workItem from="1739831579789" duration="2483000" />
     </task>
     <task id="LOCAL-00001" summary="Removido paginas predeterminadas (counter.razor/weather.razor)">
       <option name="closed" value="true" />
@@ -210,7 +230,39 @@
       <option name="project" value="LOCAL" />
       <updated>1739830744952</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Imports añadidos">
+      <option name="closed" value="true" />
+      <created>1739831648269</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1739831648269</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Modelo creado">
+      <option name="closed" value="true" />
+      <created>1739833996672</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1739833996672</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Contexto Modificado (Aportes)">
+      <option name="closed" value="true" />
+      <created>1739834025814</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1739834025814</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Service inyectado">
+      <option name="closed" value="true" />
+      <created>1739834042204</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1739834042204</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,7 +286,6 @@
     <MESSAGE value="Removido paginas predeterminadas (counter.razor/weather.razor)" />
     <MESSAGE value="Removido páginas predeterminadas de NavMenu.razor" />
     <MESSAGE value="Paquetes nuget instalados" />
-    <MESSAGE value="Modelo creado" />
     <MESSAGE value="Creado contexto" />
     <MESSAGE value="Creado Service" />
     <MESSAGE value="Creado Index" />
@@ -243,6 +294,10 @@
     <MESSAGE value="Inyectado context factory" />
     <MESSAGE value="Misc" />
     <MESSAGE value="Añadido Connection String de somee para el parcial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Añadido Connection String de somee para el parcial" />
+    <MESSAGE value="Imports añadidos" />
+    <MESSAGE value="Modelo creado" />
+    <MESSAGE value="Contexto Modificado (Aportes)" />
+    <MESSAGE value="Service inyectado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Service inyectado" />
   </component>
 </project>
