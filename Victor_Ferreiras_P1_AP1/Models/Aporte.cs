@@ -18,5 +18,7 @@ public class Aporte
     [Required(ErrorMessage = "El campo es requerido")]
     [Range(1, double.MaxValue, ErrorMessage = "El campo debe ser mayor que 0")]
     public double Monto { get; set; }
+    
+    public DateTime Fecha { get; set; } = DateTime.Now;
 }
 
