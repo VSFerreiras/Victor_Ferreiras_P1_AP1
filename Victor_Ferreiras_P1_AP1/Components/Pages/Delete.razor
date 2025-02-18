@@ -1,7 +1,74 @@
-@page "/Delete{ModeloId:int}"
+@page "/Delete/{AporteId:int}"
+@using Victor_Ferreiras_P1_AP1.Models
+@inject AporteService AporteService
+@inject NavigationManager navigationManager
+@rendermode InteractiveServer
 
-<h3>Delete</h3>
+<PageTitle>Eliminar Aporte</PageTitle>
+<EditForm Model="Aporte" OnValidSubmit="Eliminar">
+    <DataAnnotationsValidator />
+
+    <div class="container">
+        <div class="card shadow-lg">
+            <div class="card-header text-center bg-primary text-white m-2">
+                <h4 class="card-title"><strong>Eliminar Aporte</strong></h4>
+            </div>
+
+            <div class="card-body">
+                <div class="card-header bg-light">
+                    <h6 class="text-danger fs-4">¿Estás seguro de que quieres eliminar este Aporte?</h6>
+                </div>
+                <div class="card shadow-lg my-3 col-md-6">
+                    <h4 class="bg-light card-header fw-bold text-center">Datos del Aporte</h4>
+                    <ul class="px-3 pt-4 pb-5 list-unstyled">
+                        <li><strong>AporteId: </strong>@Aporte.AporteId</li>
+                        <li><strong>Persona: </strong>@Aporte.Persona</li>
+                        <li><strong>Observacion: </strong>@Aporte.Observacion</li>
+                        <li><strong>Monto: </strong>@Aporte.Monto</li>
+                    </ul>
+                </div>
+            </div>
+
+            @* Footer *@
+            <div class="card-footer mt-2">
+                <button type="submit" class="btn btn-outline-danger bi bi-trash-fill"> Eliminar </button>
+                <a href="/" class="btn btn-outline-primary"> <span class="bi bi-box-arrow-left"></span> Volver</a>
+            </div>
+        </div>
+    </div>
+
+    @* Notificaciones *@
+    <label class="text-success" hidden="@string.IsNullOrEmpty(Saved)">@Saved</label>
+    <label class="text-danger" hidden="@string.IsNullOrEmpty(Error)">@Error</label>
+</EditForm>
 
 @code {
-    
+    [Parameter]
+    public int AporteId { get; set; }
+
+    private string Error { get; set; } = string.Empty;
+    private string Saved { get; set; } = string.Empty;
+    public Aporte Aporte { get; set; } = new Aporte();
+
+    protected override async Task OnInitializedAsync()
+    {
+        Aporte = await AporteService.Buscar(AporteId);
+    }
+
+    public async Task Eliminar()
+    {
+        Error = string.Empty;
+        Saved = string.Empty;
+
+        var eliminado = await AporteService.Eliminar(Aporte.AporteId);
+        if (eliminado)
+        {
+            Saved = "Aporte Eliminado Exitosamente";
+            navigationManager.NavigateTo("/");
+        }
+        else
+        {
+            Error = "Error al eliminar el Aporte";
+        }
+    }
 }

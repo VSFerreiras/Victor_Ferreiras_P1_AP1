@@ -1,5 +1,4 @@
 /home/victor/Documents/UCNE/2025-01/Programación Aplicada I/Victor_Ferreiras_P1_AP1/Victor_Ferreiras_P1_AP1/bin/Debug/net9.0/appsettings.Development.json
-/home/victor/Documents/UCNE/2025-01/Programación Aplicada I/Victor_Ferreiras_P1_AP1/Victor_Ferreiras_P1_AP1/bin/Debug/net9.0/appsettings.json
 /home/victor/Documents/UCNE/2025-01/Programación Aplicada I/Victor_Ferreiras_P1_AP1/Victor_Ferreiras_P1_AP1/bin/Debug/net9.0/Victor_Ferreiras_P1_AP1.staticwebassets.runtime.json
 /home/victor/Documents/UCNE/2025-01/Programación Aplicada I/Victor_Ferreiras_P1_AP1/Victor_Ferreiras_P1_AP1/bin/Debug/net9.0/Victor_Ferreiras_P1_AP1.staticwebassets.endpoints.json
 /home/victor/Documents/UCNE/2025-01/Programación Aplicada I/Victor_Ferreiras_P1_AP1/Victor_Ferreiras_P1_AP1/bin/Debug/net9.0/Victor_Ferreiras_P1_AP1
@@ -212,3 +211,4 @@
 /home/victor/Documents/UCNE/2025-01/Programación Aplicada I/Victor_Ferreiras_P1_AP1/Victor_Ferreiras_P1_AP1/obj/Debug/net9.0/Victor_Ferreiras_P1_AP1.pdb
 /home/victor/Documents/UCNE/2025-01/Programación Aplicada I/Victor_Ferreiras_P1_AP1/Victor_Ferreiras_P1_AP1/obj/Debug/net9.0/Victor_Ferreiras_P1_AP1.genruntimeconfig.cache
 /home/victor/Documents/UCNE/2025-01/Programación Aplicada I/Victor_Ferreiras_P1_AP1/Victor_Ferreiras_P1_AP1/obj/Debug/net9.0/ref/Victor_Ferreiras_P1_AP1.dll
+/home/victor/Documents/UCNE/2025-01/Programación Aplicada I/Victor_Ferreiras_P1_AP1/Victor_Ferreiras_P1_AP1/bin/Debug/net9.0/appsettings.json

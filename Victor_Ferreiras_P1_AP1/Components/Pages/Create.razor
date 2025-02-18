@@ -1,7 +1,91 @@
 @page "/Create"
+@inject  AporteService AporteService
+@using Victor_Ferreiras_P1_AP1.Models
+@inject NavigationManager navigationManager
+@rendermode InteractiveServer
 
-<h3>Create</h3>
+<PageTitle>Registro de Aportes</PageTitle>
+<EditForm Model="Aporte" OnValidSubmit="Guardar">
+    <DataAnnotationsValidator/>
+    <ValidationSummary/>
+
+    <div class="container">
+        <div class="card shadow-lg">
+            <div class="card-header text-center bg-primary text-white m-2">
+                <h3 class="card-title">Registro de Aportes</h3>
+            </div>
+            <div class="card-body">
+                @* AporteId *@
+                <div class="mb-3">
+                    <label class="form-label">AporteId</label>
+                    <InputNumber class="form-control small-input" @bind-Value="Aporte.AporteId" readonly/>
+                    <label class ="form-label">Fecha</label>
+                    <InputDate class="form-control small-input" @bind-Value="Aporte.Fecha" readonly/>
+                </div>
+
+                @* Persona *@
+                <div class="mb-3">
+                    <label class="form-label">Persona</label>
+                    <InputText class="form-control wide-input" @bind-Value="Aporte.Persona"/>
+                    <ValidationMessage For="@(() => Aporte.Persona)"/>
+                </div>
+
+                @* Obvservacion *@
+                <div class="mb-3">
+                    <label class="form-label">Observacion</label>
+                    <InputText class="form-control wide-input" @bind-Value="Aporte.Observacion"/>
+                    <ValidationMessage For="@(() => Aporte.Observacion)"/>
+                </div>
+
+            @* Monto *@
+                <div class="mb-3">
+                    <label class="form-label">Monto</label>
+                    <InputNumber class="form-control wide-input" @bind-Value="Aporte.Monto"/>
+                    <ValidationMessage For="@(() => Aporte.Monto)"/>
+                </div>
+            </div>
+        </div>
+
+        @* Footer *@
+        <div class="card-footer text-center mt-2">
+            <button type="button" class="btn btn-outline-primary" @onclick="Nuevo">
+                <span class="bi bi-plus"></span> Nuevo
+            </button>
+            <button type="submit" class="btn btn-outline-success">
+                <span class="bi bi-check-circle-fill"></span> Guardar
+            </button>
+            <a href="/" class="btn btn-outline-danger">
+                <span class="bi bi-arrow-bar-left"></span> Retroceder
+            </a>
+        </div>
+    </div>
+
+    @* Notificaciones *@
+    <label class="text-success" hidden="@string.IsNullOrEmpty(Saved)">@Saved</label>
+    <label class="text-danger" hidden="@string.IsNullOrEmpty(Error)">@Error</label>
+</EditForm>
 
 @code {
-    
+    public Aporte Aporte { get; set; } = new Aporte();
+    private string Error { get; set; } = string.Empty;
+    private string Saved { get; set; } = string.Empty;
+
+    private void Nuevo()
+    {
+        Aporte = new Aporte();
+    }
+
+    private async Task Guardar()
+    {
+        var creado = await AporteService.Guardar(Aporte);
+        if (creado)
+        {
+            Saved = "Registro creado exitosamente";
+            navigationManager.NavigateTo("/");
+        }
+        else
+        {
+            Error = "Error al guardar el Registro";
+        }
+    }
 }
