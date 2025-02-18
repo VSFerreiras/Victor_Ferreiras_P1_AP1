@@ -1,8 +1,122 @@
 @page "/"
+@using Victor_Ferreiras_P1_AP1.Models
+@inject AporteService AporteService
+@rendermode InteractiveServer
 
-<h3>Index</h3>
+<PageTitle>Registro de Aportes</PageTitle>
+<div class="container">
+    <div class="card shadow-lg">
+        <div class="card-header header-padding text-center">
+            <h2 class="card-title">Registro de Aportes</h2>
+            <a href="/Create" class="btn btn-success float-end">
+                <span class="bi bi-plus-circle mt-3"></span> Crear
+            </a>
+        </div>
+        <div class="card-body">
+            @*Labels*@
+            <div class="row">
+                @*Filtrar por*@
+                <div class="col-4">
+                    <label class="col-form-label">Filtrar por</label>
+                </div>
+
+                @*ValorFiltro*@
+                <div class="col-4">
+                    <label class="col-form-label">Búsqueda</label>
+                </div>
+            </div>
+
+            @*Inputs y botones*@
+            <div class="row align-items-center">
+                <div class="col-4">
+                    <div class="input-group">
+                        <InputSelect class="form-select" @bind-Value="Filtro">
+                            <option value="" selected disabled>Elija una opción</option>
+                            <option value="AporteId">AporteId</option>
+                            <option value="Persona">Persona</option>
+                        </InputSelect>
+                        <button type="button" class="btn btn-outline-secondary" @onclick="Restablecer">
+                            <span class="bi bi-arrow-clockwise"></span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="input-group">
+                        <input class="form-control" @bind="ValorFiltro" placeholder="Buscar"/>
+                        <button type="button" class="btn btn-primary" @onclick="Buscar">
+                            <span class="bi bi-search"></span> Buscar
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            @* Tabla *@
+            <table class="table table-hover text-center">
+                <thead class="table-striped text-black" style="border-bottom: 3px solid green;">
+                <tr>
+                    <th>AporteId</th>
+                    <th>Persona</th>
+                    <th>Monto</th>
+                    <th>Observación</th>
+                    <th>Editar</th>
+                    <th>Eliminar</th>
+                </tr>
+                </thead>
+                <tbody>
+                @foreach (var Aporte in ListaAportes)
+                {
+                    <tr>
+                        <td>@Aporte.AporteId</td>
+                        <td>@Aporte.Persona</td>
+                        <td>@Aporte.Monto</td>
+                        <td>@Aporte.Observacion</td>
+                        <td>
+                            <a class="btn btn-outline-success bi bi-pencil-fill" href="/Edit/@Aporte.AporteId"></a>
+                        </td>
+                        <td>
+                            <a class="btn btn-outline-danger bi bi-trash-fill" href="/Delete/@Aporte.AporteId"></a>
+                        </td>
+                    </tr>
+                }
+                </tbody>
+            </table>
+            <ul class="list-unstyled d-flex justify-content-between">
+                <li><strong>Conteo: </strong> @ListaAportes.Count</li>
+                <li><strong>Total: </strong> @ListaAportes.Sum(a => a.Monto)</li>
+            </ul>
+
+
+        </div>
+    </div>
+</div>
 
 @code {
-    
-}
+    public List<Aporte> ListaAportes { get; set; } = new List<Aporte>();
+    public string Filtro { get; set; } = string.Empty;
+    public string ValorFiltro { get; set; } = string.Empty;
+    protected override async Task OnInitializedAsync()
+    {
+        ListaAportes = await AporteService.Listar(a => a.AporteId > 0);
+    }
 
+    private async Task Buscar()
+    {
+        if (Filtro == "AporteId")
+        {
+            if (int.TryParse(ValorFiltro, out int AporteId))
+            {
+                ListaAportes = await AporteService.Listar(a => a.AporteId == AporteId);
+            }
+        }
+
+        StateHasChanged();
+    }
+
+    private async Task Restablecer()
+    {
+        ListaAportes = await AporteService.Listar(a => a.AporteId > 0);
+        Filtro = string.Empty;
+        ValorFiltro = string.Empty;
+    }
+}
