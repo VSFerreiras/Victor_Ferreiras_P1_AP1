@@ -13,20 +13,17 @@
             </a>
         </div>
         <div class="card-body">
-            @*Labels*@
+            @* Filtro por *@
             <div class="row">
-                @*Filtrar por*@
                 <div class="col-4">
                     <label class="col-form-label">Filtrar por</label>
                 </div>
-
-                @*ValorFiltro*@
                 <div class="col-4">
                     <label class="col-form-label">Búsqueda</label>
                 </div>
             </div>
 
-            @*Inputs y botones*@
+            @* Inputs de Filtro y Botones *@
             <div class="row align-items-center">
                 <div class="col-4">
                     <div class="input-group">
@@ -40,10 +37,9 @@
                         </button>
                     </div>
                 </div>
-
                 <div class="col-4">
                     <div class="input-group">
-                        <input class="form-control" @bind="ValorFiltro" placeholder="Buscar"/>
+                        <input class="form-control" @bind="ValorFiltro" placeholder="Buscar" />
                         <button type="button" class="btn btn-primary" @onclick="Buscar">
                             <span class="bi bi-search"></span> Buscar
                         </button>
@@ -51,8 +47,20 @@
                 </div>
             </div>
 
-            @* Tabla *@
-            <table class="table table-hover text-center">
+            @* Campos Desde y Hasta *@
+            <div class="row align-items-center mt-3">
+                <div class="col-4">
+                    <label for="fechaDesde" class="form-label">Desde</label>
+                    <input type="date" id="fechaDesde" class="form-control" @bind="FechaDesde" />
+                </div>
+                <div class="col-4">
+                    <label for="fechaHasta" class="form-label">Hasta</label>
+                    <input type="date" id="fechaHasta" class="form-control" @bind="FechaHasta" />
+                </div>
+            </div>
+
+            @* Tabla de Aportes *@
+            <table class="table table-hover text-center mt-4">
                 <thead class="table-striped text-black" style="border-bottom: 3px solid green;">
                 <tr>
                     <th>AporteId</th>
@@ -86,7 +94,6 @@
                 <li><strong>Total: </strong> @ListaAportes.Sum(a => a.Monto)</li>
             </ul>
 
-
         </div>
     </div>
 </div>
@@ -95,6 +102,9 @@
     public List<Aporte> ListaAportes { get; set; } = new List<Aporte>();
     public string Filtro { get; set; } = string.Empty;
     public string ValorFiltro { get; set; } = string.Empty;
+    public DateTime? FechaDesde { get; set; }
+    public DateTime? FechaHasta { get; set; }
+
     protected override async Task OnInitializedAsync()
     {
         ListaAportes = await AporteService.Listar(a => a.AporteId > 0);
@@ -102,12 +112,13 @@
 
     private async Task Buscar()
     {
-        if (Filtro == "AporteId")
+        if (Filtro == "AporteId" && int.TryParse(ValorFiltro, out int AporteId))
         {
-            if (int.TryParse(ValorFiltro, out int AporteId))
-            {
-                ListaAportes = await AporteService.Listar(a => a.AporteId == AporteId);
-            }
+            ListaAportes = await AporteService.Listar(a => a.AporteId == AporteId);
+        }
+        else if (Filtro == "Persona")
+        {
+            ListaAportes = await AporteService.Listar(a => a.Persona.Contains(ValorFiltro));
         }
 
         StateHasChanged();
@@ -118,5 +129,7 @@
         ListaAportes = await AporteService.Listar(a => a.AporteId > 0);
         Filtro = string.Empty;
         ValorFiltro = string.Empty;
+        FechaDesde = null;
+        FechaHasta = null;
     }
 }
